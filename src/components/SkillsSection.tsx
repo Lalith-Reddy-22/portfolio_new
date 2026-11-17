@@ -5,12 +5,12 @@ export function SkillsSection() {
   const { skillCategories } = portfolioData;
 
   const categoryIcons: Record<string, React.ReactNode> = {
-    "Languages": <Code2 className="h-4 w-4 text-emerald-400" />,
+    "Programming Languages": <Code2 className="h-4 w-4 text-emerald-400" />,
     "Backend & Systems": <Server className="h-4 w-4 text-emerald-400" />,
-    "Databases & Caching": <Database className="h-4 w-4 text-emerald-400" />,
-    "Cloud, DevOps & Tools": <Cloud className="h-4 w-4 text-emerald-400" />,
-    "Frontend & UI": <Layout className="h-4 w-4 text-emerald-400" />,
-    "Core CS Fundamentals": <Cpu className="h-4 w-4 text-emerald-400" />,
+    "Frontend Engineering": <Layout className="h-4 w-4 text-emerald-400" />,
+    "Databases & Storage": <Database className="h-4 w-4 text-emerald-400" />,
+    "DevOps & Cloud Tooling": <Cloud className="h-4 w-4 text-emerald-400" />,
+    "Software Engineering Core": <Cpu className="h-4 w-4 text-emerald-400" />,
   };
 
   return (

@@ -1,5 +1,8 @@
 # SDE Portfolio Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/747b5244-a508-40ea-837d-1ae0381bdebd/deploy-status)](https://app.netlify.com/projects/lalith-reddy-portfolio)
+**Live Site:** [https://lalith-reddy-portfolio.netlify.app](https://lalith-reddy-portfolio.netlify.app)
+
 A modern, high-performance **Software Development Engineer (SDE)** portfolio website built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
 
 Designed specifically to impress tech recruiters and engineering hiring managers by focusing on architecture, measurable performance impact, clean typography, and fast scannability.

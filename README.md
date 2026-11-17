@@ -69,7 +69,25 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 ```
 
-### Deploy to Vercel (Recommended)
-1. Push this repository to GitHub.
-2. Import the repository into [Vercel](https://vercel.com).
-3. Vercel will automatically detect Next.js and deploy your portfolio with free SSL and global CDN.
+### Deploy to Netlify (Recommended)
+
+#### Option 1: Git Integration (Continuous Deployment)
+1. Push this repository to GitHub:
+   ```bash
+   git push -u origin main
+   ```
+2. Log into [Netlify](https://app.netlify.com) and click **"Add new site" > "Import an existing project"**.
+3. Select your GitHub repository. Netlify will automatically detect the settings from `netlify.toml`:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `out`
+4. Click **Deploy portfolio**. Every push to `main` will automatically trigger a fresh production deployment.
+
+#### Option 2: Instant Manual Deploy (Netlify Drop)
+1. Run `npm run build` locally to generate the static `out/` folder.
+2. Go to [app.netlify.com/drop](https://app.netlify.com/drop).
+3. Drag and drop the `out` folder from this project directory. Your site will be live instantly!
+
+#### Option 3: Netlify CLI
+```bash
+npx netlify deploy --prod --dir=out
+```

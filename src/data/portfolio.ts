@@ -67,7 +67,7 @@ export const portfolioData: PortfolioData = {
     tagline: "Building scalable backend services, high-throughput APIs, and modern full-stack web applications.",
     bio: "Passionate Software Development Engineer with hands-on experience spanning Go, TypeScript, Python, and Java. I love designing robust backend architectures, low-latency microservices, and intuitive developer tooling that scales reliably in production.",
     location: "India (Open to Relocation & Remote)",
-    email: "lalithreddy.k@outlook.com",
+    email: "klalithkumar22@gmail.com",
     github: "https://github.com/Lalith-Reddy-22",
     linkedin: "https://www.linkedin.com/in/k-lalith-kumar-reddy-248942202/",
     resumePdfUrl: "/resume.pdf",
